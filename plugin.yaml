@@ -1,0 +1,18 @@
+name: project_content
+version: "2.0.0"
+description: "Experimental shared structured-content workspace for Hermes projects."
+kind: standalone
+provides_tools:
+  - project_initialize
+  - project_create
+  - project_organize
+  - project_list
+  - project_read
+  - project_edit
+  - project_media_list
+  - project_media_register
+  - project_media_update_metadata
+  - project_blocks_inspect
+  - project_blocks_save
+  - project_blocks_insert
+  - project_blocks_move
